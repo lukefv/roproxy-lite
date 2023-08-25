@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "exciting-lamb-33"
-          entrypoint: "index.js" # 📝 Update the entrypoint if necessary
+          entrypoint: "app.json" # 📝 Update the entrypoint if necessary
           root: "." # 📝 Update the root if necessary
